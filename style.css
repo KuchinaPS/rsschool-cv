@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-color: antiquewhite;
+}
+
+h1,
+h2,
+h3 {margin: 0}
+
+.main-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.main-page > div {border-bottom: 1px solid bisque;}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about__img {
+    width: 200px;
+    height: 200px;
+}
+
+.about__img > img {width: 100%;}
+
+.code_samples__code {
+    padding: 15px;
+    background: aliceblue;
+}
