@@ -11,9 +11,9 @@ Telegram: @PolinMoroz
 
 - HTML
 - CSS, SCSS 
-- JS
+- JS, VUE
 - GIT
-- Adobe Photoshop
+- Adobe Photoshop, Figma
 
 **Code samples**
 
@@ -42,4 +42,5 @@ function factorial(n){
 Kazan (Volga region) Federal University
 
 **Languages**
+- Russian Native
 - English Pre-intermediate  
