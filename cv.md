@@ -37,6 +37,7 @@ function factorial(n){
 **Experience**
 - HTMLAcademy
 - LearnJs
+- RS Scholl
 
 **Education**  
 Kazan (Volga region) Federal University
