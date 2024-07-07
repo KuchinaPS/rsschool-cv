@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Rs School</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="container">
+        <header class="header">
+            <div class="header__img">
+                <img src="./images/imgs/avatar.png"
+                     alt="avatar">
+            </div>
+            <h1 class="header__title">Morozova Polina</h1>
+            <p class="subtitle">FRONTEND DEVELOPER</p>
+            <div class="header__section header-contacts">
+                <ul class="header-contacts__list">
+                    <li class="header-contacts__item header-contacts__email">
+                        <a href="mailto:Lermenua@yandex.ru">Lermenua@yandex.ru</a>
+                    </li>
+                    <li class="header-contacts__item header-contacts__telegram">
+                        <a href="tg://resolve?domain=PolinMoroz">@PolinMoroz</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__section">
+                <h2 class="section__title">skills</h2>
+                <ul class="list">
+                    <li class="list__item">HTML, CSS, SCSS</li>
+                    <li class="list__item">JS, VUE</li>
+                    <li class="list__item">GIT</li>
+                    <li class="list__item">FIGMA</li>
+                </ul>
+            </div>
+            <div class="header__section">
+                <h2 class="section__title">language</h2>
+                <ul class="list">
+                    <li class="list__item">Russian: Native</li>
+                    <li class="list__item">English: Intermediate</li>
+                </ul>
+            </div>
+        </header>
+        <main class="main-container">
+            <section class="section">
+                <h2 class="section__title">about me</h2>
+                <p>
+                    Originally from Kazan, I live in Moscow. In my free time, I enjoy reading and cross-stitching. I
+                    have two cats. One of them really loves joining my calls with colleagues. I started learning
+                    programming to understand how to configure mods for games.
+                </p>
+            </section>
+            <section class="section">
+                <h2 class="section__title">education</h2>
+                <p>Kazan (Volga region) Federal University</p>
+                <p>Specialization: Applied computer science, Bachelor's degree</p>
+                <p>Years: 2013 - 2017</p>
+            </section>
+            <section class="section">
+                <h2 class="section__title">courses</h2>
+                <ul class="list">
+                    <li class="list__item">HTMLAcademy</li>
+                    <li class="list__item">LearnJs</li>
+                </ul>
+            </section>
+            <section class="section">
+                <h2 class="section__title">projects</h2>
+                <ul class="projects">
+                    <li class="projects__item">
+                        <a href="https://kuchinaps.github.io/puzzel/">
+                            <img src="./images/imgs/puzzle.png" alt="project 1 puzzle">
+                        </a>
+                        <div>
+                            <h3>Puzzle</h3>
+                            <p>VUE JS CSS</p>
+                            <a class="project__link" href="https://github.com/KuchinaPS/puzzel">see project</a>
+                        </div>
+                    </li>
+                    <li class="projects__item">
+                        <a href="#">
+                            <img src="./images/imgs/gllacy.png" alt="project 2 gllacy">
+                        </a>
+                        <div>
+                            <h3>GLLACY</h3>
+                            <p>HTML CSS</p>
+                            <a class="project__link" href="https://github.com/KuchinaPS/201227-gllacy">see project</a>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section class="section">
+                <h2 class="section__title">code samples</h2>
+                <p>Description: Take 2 strings s1 and s2 including only letters from a to z. Return a new sorted string,
+                    the longest possible, containing distinct letters - each taken only once - coming from s1 or s2.</p>
+                <pre class="code_samples__code">
+                    <code>
+    function longest(s1, s2) {
+       return [...new Set((s1+s2).split('').sort())].join('');
+    }
+                    </code>
+                </pre>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <a href="https://github.com/KuchinaPS">
+            <img src="./images/icons/github-mark.svg" alt="my github">
+        </a>
+        <p>2024</p>
+        <a href="https://rs.school/courses/javascript-ru">
+            <img src="./images/icons/rs-school-logo.svg" width="100" height="100" alt="rs school course js">
+        </a>
+    </footer>
+</div>
